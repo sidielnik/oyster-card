@@ -1,0 +1,22 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Oyster Market//Business card//EN
+N:Головихин;Станислав;;;
+FN:Станислав Головихин
+ORG:Oyster Market
+TITLE:Сооснователь
+TEL;TYPE=WORK,VOICE:+79037431163
+EMAIL;TYPE=INTERNET,WORK:oystermarket@yandex.ru
+URL;TYPE=WORK:https://oyster.market
+item1.URL:https://sidielnik.github.io/oyster-card/stas
+item1.X-ABLabel:Визитка
+item2.URL:https://t.me/Oyster_Market5
+item2.X-ABLabel:Telegram
+X-SOCIALPROFILE;TYPE=telegram:https://t.me/Oyster_Market5
+ADR;TYPE=WORK:;;Михайловский проезд\, 3с16;Москва;
+ ;109029;Россия
+NOTE:Oyster Market — живые устрицы\, крабы\, икра и
+  рыба. Москва\, с 2013 года.\nWeChat: https://u.wechat.com/
+ kJQ58UujLJ9aJdR7YHSjPXI?s=2
+REV:20261027T143138Z
+END:VCARD

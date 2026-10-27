@@ -1,0 +1,22 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Oyster Market//Business card//EN
+N:Golovikhin;Stanislav;;;
+FN:Stanislav Golovikhin
+ORG:Oyster Market
+TITLE:联合创始人
+TEL;TYPE=WORK,VOICE:+79037431163
+EMAIL;TYPE=INTERNET,WORK:oystermarket@yandex.ru
+URL;TYPE=WORK:https://oyster.market
+item1.URL:https://sidielnik.github.io/oyster-card/stas
+item1.X-ABLabel:名片
+item2.URL:https://t.me/Oyster_Market5
+item2.X-ABLabel:Telegram
+X-SOCIALPROFILE;TYPE=telegram:https://t.me/Oyster_Market5
+ADR;TYPE=WORK:;;Mikhaylovsky proezd 3\, bldg 16;Moscow 莫斯科;;109029;Ru
+ ssia 俄罗斯
+NOTE:斯坦尼斯拉夫·戈洛维欣 · Oyster Market · 莫斯科高端
+ 海鲜供应商：鲜活生蚝、帝王蟹、鱼子酱和鲜鱼，创立
+ 于2013年。\nWeChat: https://u.wechat.com/kJQ58UujLJ9aJdR7YHSjPXI?s=2
+REV:20261027T143138Z
+END:VCARD

@@ -44,7 +44,8 @@ svg{display:block;flex:none}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,53,63,.62) 0%,rgba(0,53,63,.08) 26%,rgba(0,53,63,.2) 58%,var(--bg) 99%)}
 .who{position:relative;z-index:2;margin-top:-150px;padding:0 20px;text-align:center}
 .portrait{width:184px;height:232px;margin:0 auto 22px;padding:7px;border-radius:92px 92px 26px 26px;border:1px solid rgba(254,222,169,.62);background:rgba(0,53,63,.5);box-shadow:0 30px 70px rgba(0,0,0,.42)}
-.portrait img,.portrait .mono{display:block;width:100%;height:100%;border-radius:85px 85px 20px 20px;object-fit:cover}
+.portrait img,.portrait .mono{width:100%;height:100%;border-radius:85px 85px 20px 20px;object-fit:cover}
+.portrait img{display:block}
 .mono{display:flex;align-items:center;justify-content:center;background:radial-gradient(120% 90% at 50% 16%,#0B716E 0%,#024349 52%,#012A31 100%);font:italic 500 78px/1 var(--serif);color:var(--sand);letter-spacing:.01em}
 .name{font-weight:500;font-size:34px;line-height:1.08;letter-spacing:-.012em}
 .name-zh{margin-top:8px;font-size:15px;color:var(--muted);letter-spacing:.1em}
@@ -69,7 +70,7 @@ h2{font:italic 500 29px/1.12 var(--serif);color:var(--sand);margin-bottom:12px}
 .rows .ic svg{width:20px;height:20px}
 .rows .t{min-width:0}
 .rows .k{display:block;font-size:12px;line-height:1.3;color:var(--faint);letter-spacing:.03em}
-.rows .v{display:block;font-size:16px;line-height:1.35;color:var(--cream);overflow-wrap:anywhere}
+.rows .v{display:block;font-size:clamp(14px,4.1vw,16px);line-height:1.35;color:var(--cream);overflow-wrap:anywhere}
 .copy{flex:none;width:42px;height:42px;border-radius:13px;display:flex;align-items:center;justify-content:center;color:var(--muted);border:1px solid rgba(254,222,169,.13)}
 .copy svg{width:18px;height:18px}
 .wx{text-align:center}
@@ -103,12 +104,12 @@ footer img{width:54px;height:54px}
 .modal,.ov{position:fixed;inset:0;z-index:30;display:none}
 .modal{align-items:center;justify-content:center;padding:22px;background:rgba(0,18,22,.84);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
 .modal.open{display:flex}
-.sheet{position:relative;width:100%;max-width:360px;padding:30px 22px 22px;border-radius:30px;background:var(--bg);border:1px solid var(--line);text-align:center;box-shadow:0 40px 100px rgba(0,0,0,.5)}
+.sheet{position:relative;width:100%;max-width:360px;padding:60px 22px 22px;border-radius:30px;background:var(--bg);border:1px solid var(--line);text-align:center;box-shadow:0 40px 100px rgba(0,0,0,.5)}
 .sheet .qrbox{padding:14px;border-radius:22px;background:#fff}
 .sheet .qrbox img{display:block;width:100%;height:auto}
 .sheet b{display:block;margin-top:18px;font-weight:500;font-size:20px}
 .sheet p{margin-top:4px;font-size:14px;color:var(--muted)}
-.x{position:absolute;top:10px;right:10px;width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.x{position:absolute;top:12px;right:12px;width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--muted)}
 .x svg{width:20px;height:20px}
 .ov{background:rgba(0,14,18,.93)}
 .ov.open{display:block}
@@ -167,7 +168,7 @@ footer img{width:54px;height:54px}
 </section><section class="block about">
 <h2>О компании</h2>
 <p>Oyster Market — живые устрицы, крабы, морские ежи, икра и рыба. С 2013 года поставляем морепродукты ресторанам Москвы и частным клиентам, свежий завоз — каждую неделю.</p>
-<dl class="facts"><div><dt>2013</dt><dd>год основания</dd></div><div><dt>Каждую неделю</dt><dd>свежий завоз</dd></div><div><dt>Рестораны</dt><dd>и частные клиенты</dd></div><div><dt>Москва</dt><dd>доставка по городу</dd></div></dl>
+<dl class="facts"><div><dt>2013</dt><dd>год основания</dd></div><div><dt>Еженедельно</dt><dd>свежий завоз</dd></div><div><dt>Рестораны</dt><dd>и частные клиенты</dd></div><div><dt>Москва</dt><dd>доставка по городу</dd></div></dl>
 <a class="btn-ghost" href="https://oyster.market" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5a14.5 14.5 0 0 1 3.8 9.5 14.5 14.5 0 0 1-3.8 9.5 14.5 14.5 0 0 1-3.8-9.5A14.5 14.5 0 0 1 12 2.5z"/></svg>Сайт oyster.market</a>
 </section>
 <div class="tools"><button type="button" data-qr><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.2"/><rect x="14" y="3" width="7" height="7" rx="1.2"/><rect x="3" y="14" width="7" height="7" rx="1.2"/><path d="M14 14h3v3h-3zM17 17h4v4M21 14v.01M14 21v-.01"/></svg>Показать QR-код</button><button type="button" data-share="https://sidielnik.github.io/oyster-card/fedor"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5"/><path d="M5 12v6.5A2.5 2.5 0 0 0 7.5 21h9a2.5 2.5 0 0 0 2.5-2.5V12"/></svg>Поделиться</button></div>
